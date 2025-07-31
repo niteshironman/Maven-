@@ -55,7 +55,7 @@ pipeline {
             echo 'Build and deployment successful!'
         }
         failure {
-            echo 'Something went wrong. Check logs.'
+            echo 'Something went wrong. Check logs.'  pom.xml
         }
     }
 }
